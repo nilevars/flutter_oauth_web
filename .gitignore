@@ -29,7 +29,6 @@
 .pub-cache/
 .pub/
 build/
-lib/src/oauth2
 
 # Android related
 **/android/**/gradle-wrapper.jar
