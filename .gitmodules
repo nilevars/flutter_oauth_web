@@ -1,0 +1,3 @@
+[submodule "lib/src/oauth2"]
+	path = lib/src/oauth2
+	url = https://github.com/dart-lang/oauth2.git
