@@ -1,16 +1,16 @@
-import 'oauth2/lib/oauth2.dart' as oauth2;
-import 'oauth2/lib/src/utils.dart';
-import 'oauth2/lib/src/client.dart';
-import 'oauth2/lib/src/authorization_exception.dart';
-import 'oauth2/lib/src/handle_access_token_response.dart';
-import 'oauth2/lib/src/parameters.dart';
-import 'oauth2/lib/src/credentials.dart';
+import 'flutteroauth/lib/oauth2.dart' as flutteroauth;
+import 'flutteroauth/lib/src/utils.dart';
+import 'flutteroauth/lib/src/client.dart';
+import 'flutteroauth/lib/src/authorization_exception.dart';
+import 'flutteroauth/lib/src/handle_access_token_response.dart';
+import 'flutteroauth/lib/src/parameters.dart';
+import 'flutteroauth/lib/src/credentials.dart';
 import 'dart:convert';
 import 'dart:async';
 import 'package:crypto/crypto.dart';
 import 'package:http/http.dart' as http;
 
-class Oauth2Web extends oauth2.AuthorizationCodeGrant {
+class Oauth2Web extends flutteroauth.AuthorizationCodeGrant {
   List<String> _scopes;
   Uri _redirectEndpoint;
   final http.Client httpClient;
