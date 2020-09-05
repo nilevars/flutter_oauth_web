@@ -7,3 +7,6 @@
 [submodule "lib/src/oauthn"]
 	path = lib/src/oauthn
 	url = https://github.com/dart-lang/oauth2.git
+[submodule "lib/src/oauthv"]
+	path = lib/src/oauthv
+	url = https://github.com/dart-lang/oauth2.git
